@@ -1,0 +1,40 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "year": 2010
+    },
+    {
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "year": 1994,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "title": "Dune",
+      "genre": "Sci-Fi",
+      "year": 2021
+    },
+    {
+      "id": "5027",
+      "title": "Seoul city",
+      "genre": "fiction ",
+      "year": 2023
+    },
+    {
+      "id": "7a23",
+      "title": "Globin",
+      "genre": "fan fiction",
+      "year": 2013
+    },
+    {
+      "id": "7424",
+      "title": "Tarzan",
+      "genre": "fiction",
+      "year": 2013
+    }
+  ]
+}

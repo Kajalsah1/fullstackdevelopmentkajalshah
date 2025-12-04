@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Collection Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Movie Collection Manager</h1>
+
+        <button id="themeToggle" class="theme-btn">Dark</button>
+    </header>
+
+    <main>
+        <section class="left-section">
+            <button class="open-modal-btn" id="openAddModal">+ Add New Movie</button>
+        </section>
+
+        <section class="right-section">
+            <div class="search-sort">
+                <input type="text" id="searchInput" placeholder="Search by title or genre...">
+                <select id="sortSelect">
+                    <option value="">Sort By</option>
+                    <option value="title-asc">Title A → Z</option>
+                    <option value="title-desc">Title Z → A</option>
+                    <option value="year-new">Year (Newest)</option>
+                    <option value="year-old">Year (Oldest)</option>
+                </select>
+            </div>
+
+            <div id="movieList" class="movie-list"></div>
+        </section>
+    </main>
+    <div id="movieModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+
+            <h2 id="modalTitle">Add New Movie</h2>
+
+            <form id="movieForm">
+                <input type="text" id="title" placeholder="Movie Title" required>
+                <input type="text" id="genre" placeholder="Genre" required>
+                <input type="number" id="year" placeholder="Release Year" required>
+
+                <button type="submit" id="saveMovieBtn">Save Movie</button>
+            </form>
+        </div>
+    </div>
+    <div id="toastContainer"></div>
+    <p>© 2025 Kajal Shah. All rights reserved.</p>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
